@@ -1,0 +1,2 @@
+SELECT "Elementary, Middle, or High School",AVG(SAFETY_SCORE) AS AVERAGE_SAFETY_SCORE FROM CHICAGO_PUBLIC_SCHOOLS GROUP BY "Elementary, Middle, or High School";
+
